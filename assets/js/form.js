@@ -1,7 +1,5 @@
 //Добавление пользователя в базу
 $('#registration').submit(function(e){
-	
-	alert('Клик');
     e.preventDefault();
     var data = new FormData(this);
 	var cntEmail=$.trim($("#email").val());

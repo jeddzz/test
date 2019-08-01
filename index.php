@@ -5,7 +5,7 @@ require 'bootstrap.php';
 <html lang="ru">
     <head>
         <title>Registration</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/js/chosen/chosen.min.css" />
     </head>
     <body>
@@ -39,7 +39,7 @@ require 'bootstrap.php';
 						</div>
                         
 						<div class="reslt1" id="SelectedCity"></div>
-						<div class="reslt2"></div>
+						<div class="reslt2" id="SelectedDistr"></div>
 						
 						<button type="submit" disabled="disabled" class="btn btn-primary text-center" id="btn-reg">Зарегистрироваться</button>
                     </form>
@@ -82,30 +82,12 @@ require 'bootstrap.php';
                     </table>
                 </div>
             </div>
-			
-<div class="modal" id="ModalCard">
-  <div class="modal-dialog modal-dialog-centered modal-xs">
-    <div class="modal-content" style="display: inline-table">
-
-      <div class="modal-body">
-		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-	
-        <div class="htl-modal-header">Вы добавили отель в избранное!</div>
-		<div class="text-center mb-4">123</div>
-		<div class="">123</div>
-		
-      </div>
-
-    </div>
-  </div>
-</div>
-			
-			
         </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="assets/js/form.js"></script>
 	<script src="assets/js/chosen/chosen.jquery.min.js"></script>
     </body>

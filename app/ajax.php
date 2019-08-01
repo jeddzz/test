@@ -1,13 +1,5 @@
 <?php
-
-/**
- * @return PDO
- */
-function get_connection()
-{
-    return new PDO('mysql:host=fotolia.mysql.tools;dbname=fotolia_test;charset=utf8', 'fotolia_test', '+Cti2x3O6)');
-}
-
+require 'db.php';
 	if (isset($_POST['typePost']) && $_POST['typePost'] == 'city'):
 		
 		# Получаем список городов и районов области

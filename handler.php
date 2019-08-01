@@ -3,7 +3,6 @@ require 'bootstrap.php';
 
 if (!empty($_POST)) {
     header('Content-Type: application/json');
-
 	list($errors, $user_card) = validate($_POST);
 
     if (empty($errors)) {
